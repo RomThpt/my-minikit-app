@@ -20,7 +20,8 @@ export const minikitConfig = {
     version: "1",
     name: "Base Counter",
     subtitle: "Simple counter on Base Sepolia",
-    description: "A decentralized counter app that lets you increment and set values on Base Sepolia testnet.",
+    description:
+      "A decentralized counter app that lets you increment and set values on Base Sepolia testnet.",
     screenshotUrls: [`${ROOT_URL}/screenshot.png`],
     iconUrl: `${ROOT_URL}/icon.png`,
     splashImageUrl: `${ROOT_URL}/splash.png`,
@@ -32,7 +33,8 @@ export const minikitConfig = {
     heroImageUrl: `${ROOT_URL}/hero.png`,
     tagline: "Manage your counter on Base Sepolia",
     ogTitle: "Base Counter - Simple Counter dApp",
-    ogDescription: "Interact with a smart contract counter on Base Sepolia testnet",
+    ogDescription:
+      "Interact with a smart contract counter on Base Sepolia testnet",
     ogImageUrl: `${ROOT_URL}/hero.png`,
   },
 } as const;

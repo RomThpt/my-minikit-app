@@ -5,6 +5,7 @@ import { useMiniKit } from "@coinbase/onchainkit/minikit";
 // import { useQuickAuth } from "@coinbase/onchainkit/minikit";
 import styles from "./page.module.css";
 import Counter from "@/components/Counter";
+import AccountAssociation from "@/components/AccountAssociation";
 
 export default function Home() {
   // If you need to verify the user's identity, you can use the useQuickAuth hook.
@@ -41,6 +42,7 @@ export default function Home() {
 
         <div style={{ marginTop: 24 }}>
           <Counter />
+          <AccountAssociation />
         </div>
       </div>
     </div>
