@@ -31,7 +31,7 @@ export default function Home() {
       </header>
 
       <div className={styles.content}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/sphere.svg" alt="Sphere" width={200} height={200} />
         <h1 className={styles.title}>MiniKit</h1>
 
